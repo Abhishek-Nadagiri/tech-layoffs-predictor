@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-selfcheck.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (never commit real secrets)
+.streamlit/secrets.toml
+
+# Large model files — tracked via Git LFS (see .gitattributes)
+# If you are NOT using Git LFS, uncomment the lines below to ignore them
+# and instruct users to run train_models.py locally:
+# models/*.pkl
+
+# Logs
+*.log

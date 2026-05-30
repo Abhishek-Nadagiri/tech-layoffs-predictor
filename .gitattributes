@@ -1,0 +1,9 @@
+# Git LFS — track large binary model files
+models/*.pkl filter=lfs diff=lfs merge=lfs -text
+
+# Ensure consistent line endings
+*.py   text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.toml text eol=lf
+*.csv  text eol=lf
